@@ -6,3 +6,8 @@ h2 {
 p {
     font-family: "Changa";
 }
+
+.profile-pic {
+    border-radius: 50%;
+    height: 300px;
+}
