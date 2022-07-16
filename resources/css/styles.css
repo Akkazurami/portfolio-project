@@ -4,6 +4,11 @@ a {
     font-family: "Kanit";
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 p,
 footer {
     font-family: "Changa";
@@ -53,6 +58,10 @@ section {
 .contact {
     display: flex;
     justify-content: space-between;
+}
+
+.social li{
+    margin: 0 20px;
 }
 
 .fa-brands {
