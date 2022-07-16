@@ -11,6 +11,7 @@ p {
 .profile-pic {
     border-radius: 50%;
     height: 300px;
+    margin-left: 30px;
 }
 
 header {
@@ -37,12 +38,22 @@ main {
     margin: 0 auto;
 }
 
+section {
+    width: 100%;
+}
+
 .about {
     display: flex;
+    justify-content: space-between;
 }
 
 .skills ul {
     justify-content: space-around;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
 }
 
 .fa-brands {
