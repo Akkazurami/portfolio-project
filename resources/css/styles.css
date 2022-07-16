@@ -4,7 +4,8 @@ a {
     font-family: "Kanit";
 }
 
-p {
+p,
+footer {
     font-family: "Changa";
 }
 
@@ -33,7 +34,7 @@ header ul li {
     margin: 20px;
 }
 
-main {
+body {
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -58,4 +59,8 @@ section {
 
 .fa-brands {
     font-size: 50px;
+}
+
+footer {
+    font-size: 12px;
 }
