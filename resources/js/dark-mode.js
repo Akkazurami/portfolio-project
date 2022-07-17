@@ -14,8 +14,8 @@ const darkModeOff = () => {
     setTimeout(() => toggle.addEventListener('click', darkModeOn), 0);
 }
 
-const darkModeOn = (event) => {
-    content.style.backgroundColor = 'hsla(341, 18%, 13%, 1)';
+const darkModeOn = () => {
+    content.style.backgroundColor = 'hsla(284, 0%, 10%, 1)';
     content.style.color = 'white';
     for (let i = 0; i < links.length; i++) {
         links[i].style.color = 'white';
